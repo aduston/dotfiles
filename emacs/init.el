@@ -11,16 +11,17 @@
 
 (setq package-selected-packages
       (append package-selected-packages
-	      '(dockerfile-mode
-		;; ensime
+              '(dockerfile-mode
+                ;; ensime
                 graphql-mode
-		js2-mode
-		json-mode
-		markdown-mode
-		markdown-toc
-		pug-mode
+                js2-mode
+                json-mode
+                markdown-mode
+                markdown-toc
+                pug-mode
                 rjsx-mode
-		yaml-mode)))
+                rust-mode
+                yaml-mode)))
 
 (package-install-selected-packages)
 
